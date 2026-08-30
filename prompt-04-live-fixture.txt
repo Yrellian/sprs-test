@@ -1,0 +1,1 @@
+Persistent read-only fixture for sprs Prompt 4 provider smoke tests.
