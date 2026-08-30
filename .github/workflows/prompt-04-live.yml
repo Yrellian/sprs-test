@@ -1,0 +1,11 @@
+name: Prompt 4 live fixture
+
+on:
+  pull_request:
+
+jobs:
+  passing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pass
+        run: printf '%s\n' 'Prompt 4 live fixture passed'
