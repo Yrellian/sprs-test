@@ -1,0 +1,11 @@
+name: Block 6 failing fixture
+
+on:
+  pull_request:
+
+jobs:
+  failing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail
+        run: exit 1
